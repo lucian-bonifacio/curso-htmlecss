@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAGS HTML</title>
+    <style>
+        body {
+            background-color:snow;
+        }
+        p {
+            text-align: justify;
+            text-indent: 50px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Tags</h1>
+    <h1 style="text-align: center;">Tags</h1>
+    <h2>Formatação de Textos</h2>
+    <p>Colocando texto em <b>NEGRITO</b> usando a tag &lt;b&gt; e &lt;/b&gt;.</p>
+    <p>Colocando texto em <i>ITALICO</i> usando a tag &lt;i&gt; e &lt;/i&gt;.</p>
+    <p style="text-align: justify; text-indent: 50px;">Colocando texto em <em>ÊNFASE</em> usando a tag &lt;em&gt; e &lt;/em&gt;. Está é uma formatação muito parecida com o itálico, contudo, tem uma função semântica propria, que seria "avisar" ao navegador que a palavra dentre essa tags merecem destaque.</p>
+    <p>Colocando texto com um <del>RISCADO</del> no meio usando a tag &lt;del&gt; e &lt;/del&gt;.</p>
+    <p>Colocando texto em <span style="text-decoration: underline;">SUBLINHADO</span> utilizando CSS. A tag &lt;span&gt; e &lt;/span&gt; pode ser utilizada para formatar pequenos trechos de um texto. </p>
+    <p>Colocando texto em <span style="font-weight: bold;">NEGRITO</span> usando CSS. O parâmetro em CSS é: &lt;spam style="font-weight: bold;"&gt;</p>
+    <p>Colocando texto em <sup>SOBRESCRITO</sup> usando a tag &lt;sup&gt; e &lt;/sup&gt;.</p>
+    <p>Colocando texto em <sub>SUBSCRITO</sub> usando a tag &lt;sub&gt; e &lt;/sub&gt;.</p>
+    <pre><!-- Tudo que estiver entre essas tags, o navegado entenderá como pré formatado, ou seja, considerará "enters" e etc.-->
+    <code> <!-- Essa tag diz ao nagegador que o trecho que está entre elas é um código. Ou seja, apenas semântica-->
+    #include &lt;iostrem&gt;<!-- um código em C++-->
+    int main() {
+        cout << "Olá, Mundo!";
+        return 0;
+    }
+    </code>
+    </pre>
+    
+
+
+
 </body>
 </html>
