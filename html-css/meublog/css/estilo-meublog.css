@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+div.imagem2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    border: 3px solid;
+}
+div.imagem2 img {
+    width: 100%;
+    height: 100%;
+}
+div.video {
+    border: 3px solid;
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div.video video {
+    width: 100%;
+    height: 100%;
+}
+p {
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
