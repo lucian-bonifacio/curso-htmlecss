@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+div {
+    display: inline-block;
+}
+
+div#direito {
+    border: solid;
+    width: 74%;
+    height: -webkit-calc(100% - 20px);
+}
+
+/*
+div#direito{
+    position: absolute;
+    right: 0;
+    border: solid;
+    width: 74%;
+    height: 100%;
+    height: -webkit-calc(100% - 20px);
+}
+*/
+/*
+div#esquerdo {
+    width: 25%;
+    height: 100%;
+    color: rgb(51, 19, 19);
+    border: solid;
+}
+*/
+/*
+div#direito {
+    width: 71%;
+    height: 100%;
+    border: solid;
+    
+}
+*/
+div#esquerdo{
+    border: solid;
+    width: 25%;
+    height: 100%;
+    height: -webkit-calc(100% - 20px);
+    margin: 0;
+    padding: 0;
+    float: left;
