@@ -12,6 +12,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    
+}
+
 p {
     text-align: justify;
 }
@@ -32,6 +36,25 @@ div#direito img {
 div#texto-principal {
     width: 500px;
     margin-left: 25%;
+}
+
+div#bloco1, #bloco2, #bloco3 {
+    border-right: solid 1px;
+    height: 100%;
+    width: 32%;
+    padding: 0;
+}
+
+div#bloco3 {
+    float: right;
+    margin-right: 24px;
+    border-right: none;
+    padding-top: 15px;
+}
+
+div#bloco1 {
+    margin-left: 3px;
+    float: left;
 }
 
 div#esquerdo{
